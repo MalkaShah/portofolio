@@ -73,7 +73,7 @@ const SkillsLanguagePub = () => {
 
 
   return (
-    <section className='text-white flex justify-center items-center'>
+    <section className='text-white flex justify-center items-center' id='SkillsLanguagePub'>
   <div className='flex-col justify-center'>
    <div className='text-2xl flex flex-row mt-16'>
       <TabButton selectTab={()=> handleTabChage("skills")} active = {tab === "skills"}>{" "}Skills {" "}</TabButton>

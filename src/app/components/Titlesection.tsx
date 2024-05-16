@@ -8,7 +8,7 @@ export default function Titlesection(){
   
   return(
   
-    <section className='mt-16'>
+    <section className='mt-16' id='Titlesection' >
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className="col-span-8 place-self-center text-center sm:text-left ">
           <h1 className='text-white mb-4 lg:text-6xl text-4xl sm:text-5xl font-extrabold '>

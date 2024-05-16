@@ -20,7 +20,7 @@ function Projectsection() {
   });
   return (
     <>
-        <section className=" w-auto max-w-none m-14  bg: bg-gradient-to-tr from-pink-500 via bg-purple-500 to to-blue-500 container flex justify-evenly flex-wrap rounded-md p-8">
+        <section id='Projectsection' className=" w-auto max-w-none m-14  bg: bg-gradient-to-tr from-pink-500 via bg-purple-500 to to-blue-500 container flex justify-evenly flex-wrap rounded-md p-8">
         <div className="w-30 h-30 flex flex-col justify-between place-items-center">
         <Link href="#"><Image
           src={kareegar}

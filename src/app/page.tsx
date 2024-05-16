@@ -4,7 +4,7 @@ import Titlesection from "./components/Titlesection";
 import Navbar from "./components/Navbar";
 import Projectsection from "./components/Projectsection";
 import SkillsLanguagePub from "./components/SkillsLanguagePub";
-import EducationExp from "./components/EducationExp";
+import EducationExp from "./components/Education";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
     <Navbar></Navbar>
     </div>
     <div className=" container mx-auto py-4 px-12 mt-24">
-    <Titlesection/>
+    <Titlesection></Titlesection>
     <EducationExp></EducationExp> 
     <SkillsLanguagePub></SkillsLanguagePub>
     <Projectsection></Projectsection>

@@ -3,9 +3,10 @@ import Link from 'next/link'
 import React, {useState} from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid';
 import Menuoverlay from './Menuoverlay';
-import EducationExp from './EducationExp';
+import Projectsection from './Projectsection';
 import Image from 'next/image';
 import logo from "@/app/assets/logo.png";
+import EducationExp from './Education';
 
 export default function Navbar() {
         const [navbarOpen,setNavbarOpen] = useState(false);
@@ -37,16 +38,19 @@ export default function Navbar() {
         <div className='menu hidden lg:block md:w-auto justify-between' id='navbar'>
         <ul className=' flex p-2 md:p-0 md:flex-row md:space-x-8 mt-5'>
             <li>
-                    <Link href={"#"} className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>About </Link>
+                    <Link href="#Titlesection" className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'> About </Link>
             </li>
             <li>
-                    <Link href={"#projects"} className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>Skills</Link>
+                    <Link href="#EducationExp" className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>Education </Link>
             </li>
             <li>
-                    <Link href={"#contact"}className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>Project</Link>
+                    <Link href="#SkillsLanguagePub" className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>Skills</Link>
             </li>
             <li>
-                    <Link href={"#contact"}className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>Contact</Link>
+                    <Link href="#Projectsection" className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>Project</Link>
+            </li>
+            <li>
+                    <Link href="#EmailSection" className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>Contact</Link>
             </li>  
          </ul>    
         </div>  

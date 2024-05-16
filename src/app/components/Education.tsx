@@ -5,7 +5,7 @@ import bookicon from "@/app/assets/bookicon.png"
 import { motion, useScroll } from 'framer-motion';
 import arrow from "@/app/assets/arrow.png";
 
-function EducationExp() {
+function page() {
     const ref = useRef<HTMLDivElement>(null);
     const {scrollYProgress} = useScroll({
       target:ref,
@@ -13,7 +13,7 @@ function EducationExp() {
     });
 
     return (
-      <>
+      <div id='EducationExp'>
       <div>
       <span className='animate-pulse mt-16 flex justify-center items-center'><Image 
               src={arrow}
@@ -108,9 +108,9 @@ function EducationExp() {
                 </div>
       
       </motion.section>
-      </>
+      </div>
     )
 
 }
 
-export default EducationExp;
+export default page;
