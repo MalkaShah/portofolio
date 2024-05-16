@@ -64,7 +64,7 @@ const Tab_DATA = [
 const SkillsLanguagePub = () => {
   const [tab, setTab] = useState("skills");
   const [ isPeding, startTansition] = useTransition();
-  const handleTabChage = (id) => {
+  const handleTabChage = (id:any) => {
       startTansition(()=>{
         setTab(id);
       })
