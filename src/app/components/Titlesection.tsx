@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import { TypeAnimation } from 'react-type-animation';
+import  {TypeAnimation} from 'react-type-animation';
 import pic from '@/app/assets/pic.jpg'
 
 export default function Titlesection(){
@@ -20,7 +20,7 @@ export default function Titlesection(){
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 'SYEDA MALKA',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1000, // wait 1s before replacing "web dev" with "mobile dev"
                 'Certified Cloud Engineer Generative AI',
                 1000,
                 'Web Developer',
